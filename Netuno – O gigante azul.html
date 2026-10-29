@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Netuno – O gigante azul</title>
+<style>
+:root{--bg:#f3f6fb;--surface:#ffffff;--ink:#0d1b3a;--muted:#4a5a7a;--accent:#1f4fd8;--accent2:#0aa5c2;--line:#cdd8ec;--hero1:#08173f;--hero2:#1f4fd8;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#070d1f;--surface:#0f1a38;--ink:#e6edff;--muted:#9fb0d6;--accent:#6c9bff;--accent2:#38d0e8;--line:#243564;--hero1:#040a1f;--hero2:#16379b}}
+:root[data-theme="dark"]{--bg:#070d1f;--surface:#0f1a38;--ink:#e6edff;--muted:#9fb0d6;--accent:#6c9bff;--accent2:#38d0e8;--line:#243564;--hero1:#040a1f;--hero2:#16379b}
+*{box-sizing:border-box}
+html{scroll-padding-top:60px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.7;font-size:18px}
+h1,h2,h3,nav,.tag,button{font-family:"Trebuchet MS",Verdana,sans-serif}
+nav{position:sticky;top:0;z-index:5;background:var(--hero1);padding:10px 20px;display:flex;gap:18px;flex-wrap:wrap;justify-content:center}
+nav a{color:#cfe0ff;text-decoration:none;font-size:15px}
+nav a:hover{color:#fff;text-decoration:underline}
+header{background:radial-gradient(circle at 75% 40%,var(--hero2),var(--hero1) 70%);color:#fff;padding:70px 20px 80px;text-align:center}
+header h1{font-size:clamp(44px,8vw,88px);margin:0;letter-spacing:.02em}
+header p{max-width:640px;margin:12px auto 0;color:#cfe0ff}
+.autores{display:inline-block;margin-top:28px;padding:10px 22px;border:1px solid #6c9bff;border-radius:999px;font-family:"Trebuchet MS",sans-serif;font-size:16px}
+main{max-width:900px;margin:0 auto;padding:0 20px 40px}
+section{padding:46px 0 10px}
+h2{font-size:32px;margin:0 0 14px;color:var(--accent)}
+h3{margin:0 0 6px;font-size:19px}
+p{margin:0 0 14px;max-width:72ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:18px 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.card b{display:block;font-family:"Trebuchet MS",sans-serif;font-size:24px;color:var(--accent)}
+.card span{font-size:15px;color:var(--muted)}
+.pedido{background:var(--surface);border-left:5px solid var(--accent2);padding:10px 16px;margin:18px 0;font-style:italic;border-radius:0 8px 8px 0}
+.maps{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;margin-top:10px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+button{border:1px solid var(--accent);background:transparent;color:var(--accent);padding:8px 14px;border-radius:8px;cursor:pointer;font-size:15px}
+button[aria-pressed="true"]{background:var(--accent);color:var(--bg)}
+button:focus-visible{outline:3px solid var(--accent2);outline-offset:2px}
+.mapbox{overflow-x:auto}
+svg{width:100%;min-width:760px;height:auto;display:block}
+svg text{font-family:"Trebuchet MS",Verdana,sans-serif}
+footer{background:var(--hero1);color:#cfe0ff;text-align:center;padding:36px 20px;font-family:"Trebuchet MS",sans-serif}
+footer b{color:#fff}
+</style>
+</head>
+<body>
+<nav>
+<a href="#sobre">Visão geral</a><a href="#atmosfera">Atmosfera</a><a href="#luas">Luas</a><a href="#aneis">Anéis</a><a href="#exploracao">Exploração</a><a href="#curiosidades">Curiosidades</a><a href="#mapas">Mapas mentais</a>
+</nav>
+<header>
+<h1>NETUNO</h1>
+<p>O oitavo e mais distante planeta do Sistema Solar: um gigante de gelo azul, ventoso e muito frio.</p>
+<div class="autores">Feito pelo grupo: Thiago, Karyne Lara e Miguel</div>
+<p style="margin-top:22px">Professor, esse trabalho merece um 10! 😄</p>
+</header>
+<main>
+
+<section id="sobre">
+<h2>Visão geral</h2>
+<p>Netuno é o oitavo planeta a partir do Sol e o mais distante deles. Por ficar tão longe, é impossível vê-lo a olho nu: só é visível com telescópio. É classificado como <b>gigante de gelo</b>, junto com Urano, porque tem muita água, amônia e metano sob uma atmosfera de hidrogênio e hélio.</p>
+<div class="grid">
+<div class="card"><b>30 UA</b><span>distância média do Sol (cerca de 4,5 bilhões de km)</span></div>
+<div class="card"><b>49.244 km</b><span>diâmetro (quase 4 vezes o da Terra)</span></div>
+<div class="card"><b>17×</b><span>a massa da Terra</span></div>
+<div class="card"><b>164,8 anos</b><span>para dar uma volta no Sol</span></div>
+<div class="card"><b>16 h</b><span>duração aproximada de um dia</span></div>
+<div class="card"><b>−214 °C</b><span>temperatura aproximada nas nuvens superiores</span></div>
+</div>
+<p>Como seu ano dura quase 165 anos terrestres, Netuno completou apenas uma volta ao redor do Sol desde que foi descoberto, em 2011.</p>
+<p>Descoberta: Netuno foi o primeiro planeta encontrado por cálculos matemáticos. Urbain Le Verrier e John Couch Adams perceberam que a órbita de Urano estava “estranha” e previram onde haveria outro planeta. Em 1846, Johann Galle apontou o telescópio para o local indicado e o encontrou.</p>
+<div class="pedido">Professor, só um lembrete carinhoso: tanta pesquisa pede uma nota 10! 🌟</div>
+</section>
+
+<section id="atmosfera">
+<h2>Atmosfera e clima</h2>
+<p>A atmosfera de Netuno é formada principalmente por hidrogênio (cerca de 80%) e hélio (cerca de 19%), com um pouco de metano. É o metano que absorve a luz vermelha e deixa o planeta com seu tom azul. Há ainda algum outro componente que deixa o azul de Netuno mais intenso que o de Urano, mas os cientistas ainda estudam isso.</p>
+<p>O clima é extremo: Netuno tem os ventos mais rápidos do Sistema Solar, que passam de 2.000 km/h. Na região das nuvens há tempestades gigantes. Em 1989, a sonda Voyager 2 fotografou a Grande Mancha Escura, uma tempestade do tamanho da Terra. Essa mancha sumiu depois, mas o telescópio Hubble viu outras surgirem.</p>
+<p>Apesar de tão longe do Sol, Netuno irradia mais energia do que recebe. Isso indica que existe calor vindo do próprio interior do planeta.</p>
+</section>
+
+<section id="luas">
+<h2>Luas</h2>
+<p>Netuno tem 16 luas conhecidas até hoje (o número pode aumentar com novas descobertas). A maior de longe é <b>Tritão</b>, descoberta em 1846, poucas semanas depois do planeta.</p>
+<div class="grid">
+<div class="card"><h3>Tritão</h3><span>Gira ao contrário da rotação de Netuno (órbita retrógrada), por isso os cientistas acreditam que foi capturada. Tem cerca de −235 °C e gêiseres de nitrogênio.</span></div>
+<div class="card"><h3>Nereida</h3><span>Tem uma das órbitas mais alongadas entre as luas do Sistema Solar.</span></div>
+<div class="card"><h3>Proteu</h3><span>A segunda maior lua, de formato irregular e escura.</span></div>
+</div>
+<p>Tritão está se aproximando lentamente de Netuno. Daqui a bilhões de anos ela pode ser despedaçada e formar um grande anel.</p>
+</section>
+
+<section id="aneis">
+<h2>Anéis</h2>
+<p>Netuno possui 5 anéis principais, finos e escuros, feitos de poeira e gelo. Receberam nomes de astrônomos ligados ao planeta: Galle, Le Verrier, Lassell, Arago e Adams. O anel Adams, o mais externo, tem trechos mais densos chamados “arcos”, mantidos por uma pequena lua chamada Galatea.</p>
+<div class="pedido">Professor, se os anéis são finos, a nossa nota pode ser bem grossa: 10! 😂</div>
+</section>
+
+<section id="exploracao">
+<h2>Exploração</h2>
+<p>Apenas uma nave visitou Netuno: a <b>Voyager 2</b>, da NASA, que passou por lá em agosto de 1989, depois de uma viagem de 12 anos. Ela descobriu novas luas, anéis e a Grande Mancha Escura. Desde então, o planeta só foi observado de longe, por telescópios como o Hubble e o James Webb.</p>
+<p>Mais de 35 anos depois, nenhuma outra missão chegou lá. Cientistas já propuseram novas sondas para estudar Netuno e Tritão, mas elas ainda não foram aprovadas.</p>
+</section>
+
+<section id="curiosidades">
+<h2>Curiosidades</h2>
+<div class="grid">
+<div class="card"><h3>Chuva de diamantes?</h3><span>Pressão e calor no interior podem transformar carbono em diamante, que “choveria” em direção ao núcleo.</span></div>
+<div class="card"><h3>Campo magnético torto</h3><span>Seu campo magnético é inclinado cerca de 47° em relação ao eixo de rotação.</span></div>
+<div class="card"><h3>Nome</h3><span>Homenagem a Netuno, deus romano dos mares.</span></div>
+<div class="card"><h3>Estações longas</h3><span>Cada estação dura mais de 40 anos terrestres.</span></div>
+</div>
+</section>
+
+<section id="mapas">
+<h2>Mapas mentais de Netuno</h2>
+<p>Escolha um mapa mental abaixo para ver o resumo de cada tema.</p>
+<div class="maps">
+<div class="tabs" id="tabs"></div>
+<div class="mapbox"><svg id="svg" viewBox="0 0 1000 640" role="img" aria-label="Mapa mental de Netuno"></svg></div>
+</div>
+<div class="pedido">Professor, com 4 mapas mentais caprichados, só dá pra dar 10! 🔟</div>
+</section>
+
+</main>
+<footer>
+<p>Trabalho sobre Netuno, feito pelo grupo <b>Thiago, Karyne Lara e Miguel</b>.</p>
+<p>Professor(a): nota 10, por favor! 🙏</p>
+</footer>
+
+<script>
+var MAPS={
+"Visão geral":{c:"NETUNO",b:[
+["Posição",["8º planeta","30 UA do Sol"]],
+["Tipo",["Gigante de gelo","Parente de Urano"]],
+["Tamanho",["49.244 km","17× a Terra"]],
+["Tempo",["Ano: 164,8 anos","Dia: ~16 horas"]],
+["Descoberta",["1846","Por cálculos"]],
+["Cor",["Azul","Metano"]]]},
+"Atmosfera e clima":{c:"ATMOSFERA",b:[
+["Gases",["80% hidrogênio","19% hélio"]],
+["Metano",["Dá a cor azul","~1,5%"]],
+["Ventos",["Até 2.000 km/h","Mais rápidos"]],
+["Tempestades",["Grande Mancha","Escura (1989)"]],
+["Temperatura",["−214 °C","Calor interno"]],
+["Estações",["Duram 40 anos","Eixo inclinado"]]]},
+"Luas e anéis":{c:"LUAS E ANÉIS",b:[
+["Tritão",["Maior lua","Órbita retrógrada"]],
+["Nereida",["Órbita alongada"]],
+["Proteu",["2ª maior","Formato irregular"]],
+["Luas",["16 conhecidas"]],
+["5 anéis",["Galle","Le Verrier","Lassell"]],
+["Anel Adams",["Tem arcos","Lua Galatea"]]]},
+"Exploração":{c:"EXPLORAÇÃO",b:[
+["Descoberta",["Le Verrier e Adams","Galle (1846)"]],
+["Voyager 2",["Agosto de 1989","Única visita"]],
+["Hubble",["Vê tempestades"]],
+["James Webb",["Anéis e auroras"]],
+["Desafios",["Muito distante","Viagem longa"]],
+["Futuro",["Novas sondas","Missão a Tritão"]]]}
+};
+var NS="http://www.w3.org/2000/svg",svg=document.getElementById("svg"),tabs=document.getElementById("tabs");
+function el(n,a,t){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);if(t)e.textContent=t;return e}
+function node(x,y,t,fill,txt,size,bold){var w=t.length*size*0.58+22,h=size+16,g=el("g",{});
+g.appendChild(el("rect",{x:x-w/2,y:y-h/2,width:w,height:h,rx:h/2,fill:fill,stroke:"var(--accent)","stroke-width":1.5}));
+g.appendChild(el("text",{x:x,y:y+size*0.35,"text-anchor":"middle","font-size":size,"font-weight":bold?"700":"400",fill:txt},t));return g}
+function draw(name){
+var m=MAPS[name],cx=500,cy=320,i,j;
+while(svg.firstChild)svg.removeChild(svg.firstChild);
+var lines=el("g",{}),nodes=el("g",{});svg.appendChild(lines);svg.appendChild(nodes);
+m.b.forEach(function(br,i){
+var a=(-90+60*i)*Math.PI/180,bx=cx+Math.cos(a)*215,by=cy+Math.sin(a)*140;
+lines.appendChild(el("line",{x1:cx,y1:cy,x2:bx,y2:by,stroke:"var(--accent)","stroke-width":3}));
+var ch=br[1],n=ch.length;
+ch.forEach(function(t,j){
+var ca=a+(j-(n-1)/2)*0.34,x=cx+Math.cos(ca)*405,y=cy+Math.sin(ca)*268;
+lines.appendChild(el("line",{x1:bx,y1:by,x2:x,y2:y,stroke:"var(--accent2)","stroke-width":2}));
+nodes.appendChild(node(x,y,t,"var(--bg)","var(--ink)",14,false));});
+nodes.appendChild(node(bx,by,br[0],"var(--accent)","var(--bg)",16,true));});
+nodes.appendChild(node(cx,cy,m.c,"var(--hero1)","#ffffff",22,true));
+svg.setAttribute("aria-label","Mapa mental: "+name);
+Array.prototype.forEach.call(tabs.children,function(b){b.setAttribute("aria-pressed",b.textContent===name?"true":"false")});}
+Object.keys(MAPS).forEach(function(k,i){var b=document.createElement("button");b.textContent=k;b.onclick=function(){draw(k)};tabs.appendChild(b)});
+draw("Visão geral");
+</script>
+</body>
+</html>
